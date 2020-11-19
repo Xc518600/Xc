@@ -179,7 +179,7 @@ var so= $XidN.write(md_bd,"createSignbdname");
 var bo= $XidN.write(JSON.stringify(md_hd),"createSignhdname");
 
 if (ao==true&&bo==true&&so==true) 
- log(dd,"[获取签到数据]","✅成功");}
+ log(dd,"[获取签到数据1]","✅成功");}
 
 
 
@@ -190,7 +190,7 @@ if(urlval.indexOf("api/mining/v1/sign/showSignInfo")>=0)
  var so= $XidN.write(urlval,"miningurlname");
 
 if (so==true) 
- log(dd,"[获取签到奖励数据]","✅成功");}
+ log(dd,"[获取签到奖励数据1]","✅成功");}
 
 
 
