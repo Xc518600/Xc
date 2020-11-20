@@ -30,8 +30,8 @@ const openurl = { "open-url" : "alipays://platformapi/startapp?saId=10000007&qrc
 function setSignData() {
   if ($request.url.indexOf("createSign") > -1) {
     $.setdata($request.url,'ttwksignurl')
-    $.setdata(JSON.stringify($request.headers),'ttwksignheader')
-    $.setdata($request.body,'ttwksignbody')
+    $.setdata(JSON.stringify($request.headers),'ttwksignheader1')
+    $.setdata($request.body,'ttwksignbody1')
     $.msg($.name,"","[获取签到数据]成功，请禁用获取Cookie脚本！")
   }
 }
